@@ -1,0 +1,41 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hey Boss",
+                "Boss",
+                "Voice Assistant",
+                "Hello"
+            ],
+            "responses":[
+                "Whats up?",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag":"name",
+            "patterns":[
+                "What is your name?",
+                "What are your called?",
+                "And your name is?",
+                "Who are you?"
+            ],
+            "responses":[
+                "I am Boss as it seems",
+                "I am Boss (name to be worked on)",
+                "I am Boss. That is not an acronym",
+                "I am Boss, your personal voice assistant"
+            ]
+        },
+        {
+            "tag":"file",
+            "patterns":[
+                "Create a file",
+                "Create a new file"
+            ],
+            "responses":[]
+        }
+
+    ]
+}
