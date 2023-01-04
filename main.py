@@ -34,7 +34,7 @@ class Assistant:
         while True:
             try:
                 with speech_recognition.Microphone() as mic:
-                    self.recognizer.adjust_for_ambient_noise(mic, duration=0.2)
+                    self.recognizer.adjust_for_ambient_noise(mic, duration=2)
                     audio = self.recognizer.listen(mic)
                     
                     text = self.recognizer.recognize_google(audio)
